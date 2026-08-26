@@ -1590,6 +1590,12 @@ O nome oficial do produto é: `JobFit`
 
 >Estamos lidando com dados sensíveis, precisamos adotar medidas  de segurança que estejam de acordo com as leis do LGPD, qual sua sugestão para ajustar essa última fase?
 
+## Resultado final no Lovable:
+https://jobfit-ai-matcher.lovable.app
+><img width="1783" height="2452" alt="screenshot-Dashboard - JobFit" src="https://github.com/user-attachments/assets/f1b111f5-579b-454d-9443-582e5c9b3a7e" />
+><img width="1783" height="3884" alt="screenshot-Encontrar vagas - JobFit" src="https://github.com/user-attachments/assets/c0c5839d-9b84-40cd-a5a5-4205442ceb53" />
+><img width="1783" height="1103" alt="screenshot-Meu perfil - JobFit" src="https://github.com/user-attachments/assets/8d8b1c2c-8728-4889-95b6-2cec70f9e364" />
+><img width="1783" height="824" alt="screenshot-Criar perfil profissional - JobFit" src="https://github.com/user-attachments/assets/04d226d7-afeb-4c26-b258-46617d5fcd6b" />
 # JobFit — Resumo das Funcionalidades
 
 Este documento descreve, em alto nível, as funcionalidades do JobFit e serve como referência rápida para desenvolvedores e designers.
