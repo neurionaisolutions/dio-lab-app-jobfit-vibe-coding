@@ -1,5 +1,5 @@
 # 📲✨📑JobFit — App Gerador de Currículos ATS Friendly com Lovable
-PRD (Documento de Requisitos do Produto) Refinado no ChatGPT Web:
+## PRD (Documento de Requisitos do Produto) Refinado no ChatGPT Web:
 ```TXT
 # PROMPT ÚNICO — JOBFIT — APP DE MATCHMAKING DE VAGAS + CURRÍCULO ATS
 
@@ -1575,20 +1575,20 @@ O resultado deve parecer um **produto SaaS profissional pronto para validação 
 Comece criando a estrutura completa da aplicação e implemente as funcionalidades de forma incremental, garantindo que cada etapa esteja funcional antes de avançar para a próxima.
 
 ```
-# Interações com o Lovable
+# 💻🤖Interações com o Lovable
 >PROMPT ÚNICO — JOBFIT — APP DE MATCHMAKING DE VAGAS + CURRÍCULO ATS: 
 
->Crie do zero, exclusivamente no Lovable, uma aplicação web SaaS chamada JobFit para matchmaking entre candidatos e vagas de emprego, com geração e personalização de currículos ATS-friendly específicos para cada vaga.
-IMPORTANTE: Ignore completamente qualquer projeto, exemplo, arquitetura, interface, banco de dados ou lógica anteriormente criada envolvendo Match, Ghost ou qualquer exemplo semelhante. Este projeto deve ser construído como uma aplicação 100% nova, sem reaproveitar conceitos de projetos anteriores.
-O nome oficial do produto é: `JobFit`
+>a) Crie do zero, exclusivamente no Lovable, uma aplicação web SaaS chamada JobFit para matchmaking entre candidatos e vagas de emprego, com geração e personalização de       currículos ATS-friendly específicos para cada vaga.
+    IMPORTANTE: Ignore completamente qualquer projeto, exemplo, arquitetura, interface, banco de dados ou lógica anteriormente criada envolvendo Match, Ghost ou qualquer      exemplo semelhante. Este projeto deve ser construído como uma aplicação 100% nova, sem reaproveitar conceitos de projetos anteriores.
+    O nome oficial do produto é: `JobFit`
 
->Remover o emoji 👋 dos títulos do Dashboard para evitar caracteres sem glifo no ambiente de teste.
+>b) Remover o emoji 👋 dos títulos do Dashboard para evitar caracteres sem glifo no ambiente de teste.
 
->Auditar o app para remover ou substituir todos os emojis e caracteres que possam não ter glifo no ambiente de teste.
+>c) Auditar o app para remover ou substituir todos os emojis e caracteres que possam não ter glifo no ambiente de teste.
 
->Rodar um scan de vulnerabilidades nas dependências para confirmar que a CVE-2026-59870 não aparece mais.
+>d) Rodar um scan de vulnerabilidades nas dependências para confirmar que a CVE-2026-59870 não aparece mais.
 
->Estamos lidando com dados sensíveis, precisamos adotar medidas  de segurança que estejam de acordo com as leis do LGPD, qual sua sugestão para ajustar essa última fase?
+>e) Estamos lidando com dados sensíveis, precisamos adotar medidas  de segurança que estejam de acordo com as leis do LGPD, qual sua sugestão para ajustar essa última         fase?
 
 ## Resultado final no Lovable:
 https://jobfit-ai-matcher.lovable.app
@@ -1596,51 +1596,60 @@ https://jobfit-ai-matcher.lovable.app
 ><img width="1783" height="3884" alt="screenshot-Encontrar vagas - JobFit" src="https://github.com/user-attachments/assets/c0c5839d-9b84-40cd-a5a5-4205442ceb53" />
 ><img width="1783" height="1103" alt="screenshot-Meu perfil - JobFit" src="https://github.com/user-attachments/assets/8d8b1c2c-8728-4889-95b6-2cec70f9e364" />
 ><img width="1783" height="824" alt="screenshot-Criar perfil profissional - JobFit" src="https://github.com/user-attachments/assets/04d226d7-afeb-4c26-b258-46617d5fcd6b" />
-# JobFit — Resumo das Funcionalidades
+# `JF`  JobFit — Resumo das Funcionalidades
 
 Este documento descreve, em alto nível, as funcionalidades do JobFit e serve como referência rápida para desenvolvedores e designers.
 
-1. Onboarding e Perfil
-   - Onboarding em etapas (informações pessoais, objetivo profissional, experiência, formação, competências, currículo).
-   - Perfil profissional completo com campos de contato, redes, preferências e completude.
+### 01. Onboarding e Perfil
+   >- Onboarding em etapas (informações pessoais, objetivo profissional, experiência, formação, competências, currículo).
+   >- Perfil profissional completo com campos de contato, redes, preferências e completude.
 
-2. Busca de Vagas e Filtros
-   - Página de Vagas com busca por palavra-chave e filtros (cargo, local, modelo, senioridade, faixa salarial, área, data, match mínimo).
-   - Cards profissionais com Match Score.
+### 02. Busca de Vagas e Filtros
+   >- Página de Vagas com busca por palavra-chave e filtros (cargo, local, modelo, senioridade, faixa salarial, área, data, match mínimo).
+   >- Cards profissionais com Match Score.
 
-3. Matchmaking
-   - Cálculo de Match Score (0-100) comparando competências, experiência, senioridade, formação, localização, modelo de trabalho, palavras-chave, requisitos, tecnologias, certificações e idiomas.
-   - Indicadores por categoria (competências, experiência, formação, senioridade, localização, palavras-chave).
+### 03. Matchmaking
+   >- Cálculo de Match Score (0-100) comparando competências, experiência, senioridade, formação, localização, modelo de trabalho, palavras-chave, requisitos, tecnologias, certificações e idiomas.
+   >- Indicadores por categoria (competências, experiência, formação, senioridade, localização, palavras-chave).
 
-4. Explicação do Match
-   - Seção "Por que esta vaga combina com você?" com: você atende, você precisa desenvolver, pontos fortes, pontos de atenção.
+### 04. Explicação do Match
+   >- Seção "Por que esta vaga combina com você?" com: você atende, você precisa desenvolver, pontos fortes, pontos de atenção.
 
-5. Página detalhada da vaga
-   - Header (cargo, empresa, localização, modelo, Match Score), descrição, requisitos (obrigatórios/desejáveis), análise de compatibilidade e ações (criar currículo, salvar vaga, marcar candidatura).
+### 05. Página detalhada da vaga
+   >- Header (cargo, empresa, localização, modelo, Match Score), descrição, requisitos (obrigatórios/desejáveis), análise de compatibilidade e ações (criar currículo, salvar vaga, marcar candidatura).
 
-6. Currículo ATS e Editor
-   - Área "Meu Currículo" com versões (base e por vaga).
-   - Editor visual com preview em tempo real, autosave e funcionalidades de reorganização.
+### 06. Currículo ATS e Editor
+   >- Área "Meu Currículo" com versões (base e por vaga).
+   >- Editor visual com preview em tempo real, autosave e funcionalidades de reorganização.
 
-7. Gerador de Currículo Personalizado (IA)
-   - Geração de currículo usando perfil, currículo base, experiências e informações da vaga.
-   - IA NÃO inventa informações — pode reorganizar, melhorar redação e adaptar palavras-chave verdadeiras.
+### 07. Gerador de Currículo Personalizado (IA)
+   >- Geração de currículo usando perfil, currículo base, experiências e informações da vaga.
+   >- IA NÃO inventa informações — pode reorganizar, melhorar redação e adaptar palavras-chave verdadeiras.
 
-8. Otimização ATS
-   - Painel de Análise ATS (ATS Score, palavras-chave, estrutura, clareza, experiência, competências, formação, legibilidade) com recomendações práticas.
+### 08. Otimização ATS
+   >- Painel de Análise ATS (ATS Score, palavras-chave, estrutura, clareza, experiência, competências, formação, legibilidade) com recomendações práticas.
 
-9. Exportação em PDF
-   - Exportar currículo em PDF preservando layout ATS-friendly e texto selecionável. Nome de arquivo profissional sugerido.
+### 09. Exportação em PDF
+   >- Exportar currículo em PDF preservando layout ATS-friendly e texto selecionável. Nome de arquivo profissional sugerido.
 
-10. Meus Currículos (biblioteca)
-   - Cards com nome, vaga relacionada, empresa, ATS Score, data de atualização, ações (abrir, editar, duplicar, renomear, excluir, exportar).
+### 10. Meus Currículos (biblioteca)
+   >- Cards com nome, vaga relacionada, empresa, ATS Score, data de atualização, ações (abrir, editar, duplicar, renomear, excluir, exportar).
 
-11. Requisitos de MVP e Arquitetura
-   - MVP sem autenticação (persistência local/browser), arquitetura escalável e preparada para futuras integrações.
-   - Uso do design system shadcn/ui.
+### 11. Requisitos de MVP e Arquitetura
+   >- MVP sem autenticação (persistência local/browser), arquitetura escalável e preparada para futuras integrações.
+   >- Uso do design system shadcn/ui.
 
 ---
+# 🧠Reflexão sobre o processo
 
+## 1. O que funcionou bem?
+>O refinamento do PRD prévio no ChatGPT foi crucial para o aproveitamento dos 5 créditos gratuitos disponíveis por dia no Lovable, que foram consumidos no total 25 em 5 dias de interações, devidos ao tamanho do mega prompt.
+
+## 2. O que não funcionou como o esperado?
+>Minha expectativa era de uma maior interação com o Lovable utilizando os créditos gratuitos, mas os resultados me surpreenderam mesmo com uma capacidade reduzida ao aplicar criatividade nas interações. Aprendi que a qualidade do prompt é mais importante que a quantidade de tentativas.
+
+## 3. O que aprendi sobre conversar com IAs?
+>Aprendi que conversar com IAs é semelhante a conversar com uma pessoa,  quanto mais informações e detalhes você fornece, mais clara fica a resposta, melhorando a interação e alcançando melhores resultados. Um PRD bem estruturado é mais valioso que múltiplas iterações genéricas.
 
 
 
