@@ -1590,6 +1590,50 @@ O nome oficial do produto é: `JobFit`
 
 >Estamos lidando com dados sensíveis, precisamos adotar medidas  de segurança que estejam de acordo com as leis do LGPD, qual sua sugestão para ajustar essa última fase?
 
+# JobFit — Resumo das Funcionalidades
+
+Este documento descreve, em alto nível, as funcionalidades do JobFit e serve como referência rápida para desenvolvedores e designers.
+
+1. Onboarding e Perfil
+   - Onboarding em etapas (informações pessoais, objetivo profissional, experiência, formação, competências, currículo).
+   - Perfil profissional completo com campos de contato, redes, preferências e completude.
+
+2. Busca de Vagas e Filtros
+   - Página de Vagas com busca por palavra-chave e filtros (cargo, local, modelo, senioridade, faixa salarial, área, data, match mínimo).
+   - Cards profissionais com Match Score.
+
+3. Matchmaking
+   - Cálculo de Match Score (0-100) comparando competências, experiência, senioridade, formação, localização, modelo de trabalho, palavras-chave, requisitos, tecnologias, certificações e idiomas.
+   - Indicadores por categoria (competências, experiência, formação, senioridade, localização, palavras-chave).
+
+4. Explicação do Match
+   - Seção "Por que esta vaga combina com você?" com: você atende, você precisa desenvolver, pontos fortes, pontos de atenção.
+
+5. Página detalhada da vaga
+   - Header (cargo, empresa, localização, modelo, Match Score), descrição, requisitos (obrigatórios/desejáveis), análise de compatibilidade e ações (criar currículo, salvar vaga, marcar candidatura).
+
+6. Currículo ATS e Editor
+   - Área "Meu Currículo" com versões (base e por vaga).
+   - Editor visual com preview em tempo real, autosave e funcionalidades de reorganização.
+
+7. Gerador de Currículo Personalizado (IA)
+   - Geração de currículo usando perfil, currículo base, experiências e informações da vaga.
+   - IA NÃO inventa informações — pode reorganizar, melhorar redação e adaptar palavras-chave verdadeiras.
+
+8. Otimização ATS
+   - Painel de Análise ATS (ATS Score, palavras-chave, estrutura, clareza, experiência, competências, formação, legibilidade) com recomendações práticas.
+
+9. Exportação em PDF
+   - Exportar currículo em PDF preservando layout ATS-friendly e texto selecionável. Nome de arquivo profissional sugerido.
+
+10. Meus Currículos (biblioteca)
+   - Cards com nome, vaga relacionada, empresa, ATS Score, data de atualização, ações (abrir, editar, duplicar, renomear, excluir, exportar).
+
+11. Requisitos de MVP e Arquitetura
+   - MVP sem autenticação (persistência local/browser), arquitetura escalável e preparada para futuras integrações.
+   - Uso do design system shadcn/ui.
+
+---
 
 
 
