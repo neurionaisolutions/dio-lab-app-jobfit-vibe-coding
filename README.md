@@ -1575,3 +1575,24 @@ O resultado deve parecer um **produto SaaS profissional pronto para validação 
 Comece criando a estrutura completa da aplicação e implemente as funcionalidades de forma incremental, garantindo que cada etapa esteja funcional antes de avançar para a próxima.
 
 ```
+# Interações com o Lovable
+>PROMPT ÚNICO — JOBFIT — APP DE MATCHMAKING DE VAGAS + CURRÍCULO ATS: 
+
+>Crie do zero, exclusivamente no Lovable, uma aplicação web SaaS chamada JobFit para matchmaking entre candidatos e vagas de emprego, com geração e personalização de currículos ATS-friendly específicos para cada vaga.
+IMPORTANTE: Ignore completamente qualquer projeto, exemplo, arquitetura, interface, banco de dados ou lógica anteriormente criada envolvendo Match, Ghost ou qualquer exemplo semelhante. Este projeto deve ser construído como uma aplicação 100% nova, sem reaproveitar conceitos de projetos anteriores.
+O nome oficial do produto é: `JobFit`
+
+>Remover o emoji 👋 dos títulos do Dashboard para evitar caracteres sem glifo no ambiente de teste.
+
+>Auditar o app para remover ou substituir todos os emojis e caracteres que possam não ter glifo no ambiente de teste.
+
+>Rodar um scan de vulnerabilidades nas dependências para confirmar que a CVE-2026-59870 não aparece mais.
+
+>Estamos lidando com dados sensíveis, precisamos adotar medidas  de segurança que estejam de acordo com as leis do LGPD, qual sua sugestão para ajustar essa última fase?
+
+
+
+
+
+
+
