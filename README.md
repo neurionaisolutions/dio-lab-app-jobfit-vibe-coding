@@ -1608,7 +1608,7 @@ Este documento descreve, em alto nível, as funcionalidades do JobFit e serve co
    >- Página de Vagas com busca por palavra-chave e filtros (cargo, local, modelo, senioridade, faixa salarial, área, data, match mínimo).
    >- Cards profissionais com Match Score.
 
-### 03. Matchmaking
+### 03. Encontre o que está procurando
    >- Cálculo de Match Score (0-100) comparando competências, experiência, senioridade, formação, localização, modelo de trabalho, palavras-chave, requisitos, tecnologias, certificações e idiomas.
    >- Indicadores por categoria (competências, experiência, formação, senioridade, localização, palavras-chave).
 
