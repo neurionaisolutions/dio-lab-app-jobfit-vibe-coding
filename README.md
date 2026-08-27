@@ -1651,7 +1651,4 @@ Este documento descreve, em alto nível, as funcionalidades do JobFit e serve co
 ## 3. O que aprendi sobre conversar com IAs?
 >Aprendi que conversar com IAs é semelhante a conversar com uma pessoa,  quanto mais informações e detalhes você fornece, mais clara fica a resposta, melhorando a interação e alcançando melhores resultados. Um PRD bem estruturado é mais valioso que múltiplas iterações genéricas.
 
-
-
-
-
+>### Autor: Alessandro Teixeira - 26/08/2026
