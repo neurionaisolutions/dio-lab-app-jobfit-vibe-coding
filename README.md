@@ -1598,8 +1598,8 @@ https://jobfit-ai-matcher.lovable.app
 ><img width="1783" height="824" alt="screenshot-Criar perfil profissional - JobFit" src="https://github.com/user-attachments/assets/04d226d7-afeb-4c26-b258-46617d5fcd6b" />
 # `JF`  JobFit — Resumo das Funcionalidades
 
-Este documento descreve, em alto nível, as funcionalidades do JobFit e serve como referência rápida para desenvolvedores e designers.
-
+### Este documento descreve, em alto nível, as funcionalidades do JobFit e serve como referência rápida para desenvolvedores e designers.
+---
 ### 01. Onboarding e Perfil
    >- Onboarding em etapas (informações pessoais, objetivo profissional, experiência, formação, competências, currículo).
    >- Perfil profissional completo com campos de contato, redes, preferências e completude.
@@ -1652,3 +1652,6 @@ Este documento descreve, em alto nível, as funcionalidades do JobFit e serve co
 >Aprendi que conversar com IAs é semelhante a conversar com uma pessoa,  quanto mais informações e detalhes você fornece, mais clara fica a resposta, melhorando a interação e alcançando melhores resultados. Um PRD bem estruturado é mais valioso que múltiplas iterações genéricas.
 
 >### Autor: Alessandro Teixeira - 26/08/2026
+
+
+---
